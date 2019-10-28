@@ -1,8 +1,9 @@
 /*GENERAL STYLES*/
 body {
-	font-family: Arial, San-Serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 100%;
-	background-color: #E3FFD3;
+	background-color: #E6FCD9;
+	margin: 0;
 }
 ul {
 	margin: 0;/*зовнішній відступ*/
@@ -25,19 +26,20 @@ p {
 
 /*HEADER*/
 .header {
+	font-family: 'Lora', serif;
 	padding:50px 0;/*внутрішній відступ*/
-	background-image: url(https://biologie.uni-greifswald.de/fileadmin/uni-greifswald/fakultaet/mnf/biologie/0_bio_general/studium_und_lehre/msc_biodiv/Lessmann_MSc_BioOeko.jpg);
+	background-image: url(https://cdn.pixabay.com/photo/2018/05/16/22/45/margarite-3407277_1280.jpg);
 	background-size: 100%;
 	width: 100%;
 	position: static;
 }
 .header h1 {
-	color: white;
+	color: #7088FF;
 	text-align: center;
 	font-size: 60px;
 }
 .header h2 {
-	color: #E3FFD3;
+	color: #7088FF
 	text-align: center;
 	font-size: 35px;
 }
@@ -61,7 +63,7 @@ p {
 	text-align: center;
 }
 .page-navigation li a:hover/*спрацьовує при наведенні курсору мишки*/ {
-	color: #E3FFD3;
+	color: #E6FCD9;
 	background-color: black;
 }
 
@@ -92,6 +94,7 @@ button:hover {
 /*MAIN PART*/
 .collections {
 	overflow: auto;
+	border-radius: 5px;
 }
 .collection-title {
 	color: #222;
@@ -155,24 +158,28 @@ button:hover {
 
 /*FOOTER*/
 .footer {
-	background-color:#E3FFD3;
+	background-color:#222;
 	color: white;
 	padding: 1px 0;
-	margin-top: 30px;
+	margin-top: 80px;
+	margin-bottom: 0;
 }
 .to-top {
-	background: #E3FFD3;
+	background: #E6FCD9;
 	position: fixed;
 	z-index: 1;
 	right: 10px;
 	bottom: 115px;
 	cursor: pointer;
 	padding: 5px 15px;
-	color: #E3FFD3;
+	color: #E6FCD9;
 }
 .to-top li a:hover {
 	color:white;
 	background-color: #222;
 	border: 1px solid transparent;
 	border-radius: 5px;
+}
+.container {
+	text-align: center;
 }
